@@ -9,6 +9,20 @@ body {
     color: #595959;
 }
 
+header {
+    text-align: left;
+    font-size: 17px;
+    color: cornflowerblue;
+    text-decoration: underline;
+    border: 2px, solid, black;
+}
+
+.webSites {
+    text-align: left;
+    font-size: 17px;
+    color: rgb(3, 23, 59);
+}
+
 h1 {
     font-size: 32px;
     margin: 0;
@@ -26,6 +40,8 @@ p {
     flex-direction: column;
     margin: auto;
     text-align: center;
+    /* text-decoration: underline; */
+    border: 2px, solid, black;
 }
 
 #container1, #container2 {
@@ -55,17 +71,6 @@ p {
     flex-direction: column;
 }
 
-.button {
-    padding: 10px 15px;
-    background: lightgrey;
-    max-width: 200px;
-    border-radius: 3px;
-    border: 2px solid gray;
-    padding: 10px 35px;
-    margin: 50px auto;
-    font-weight: 600;
-}
-
 img {
     height: 200px;
     width: 200px;
@@ -81,3 +86,19 @@ img {
     text-align: center;
     flex-direction: row;
 }
+
+a {
+    color: rgb(22, 87, 105);
+    border: 2px, solid, black;
+}
+
+/* .button {
+    padding: 10px 15px;
+    background: lightgrey;
+    max-width: 200px;
+    border-radius: 3px;
+    border: 2px solid gray;
+    padding: 10px 35px;
+    margin: 50px auto;
+    font-weight: 600;
+} */
